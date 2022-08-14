@@ -1,0 +1,25 @@
+<div class="group relative  rounded-sm">
+    <div class="flex flex-col  h-86  rounded-lg w-full shadow-lg overflow-hidden  h-56 rn group-hover:opacity-75 lg:h-72 xl:h-80" >
+        <img src="@Url_IMG"
+            alt="Hand stitched, orange leather long wallet." class="w-full h-full object-center object-cover">
+    </div>
+    <h3 class="mt-4 text-sm text-gray-700">
+        <a href="#">
+            <span class="absolute inset-0"></span>
+            @Titulo
+        </a>
+    </h3>
+    <p class="mt-1 text-sm text-gray-500">@Fecha</p>
+    <p class="mt-1 text-sm font-medium text-gray-900">@Descripcion</p>
+</div>
+
+@code {
+    [Parameter]
+    public string Url_IMG {get;set;}
+    [Parameter]
+    public string Titulo {get;set;}
+    [Parameter]
+    public string Fecha {get;set;}
+    [Parameter]
+    public string Descripcion {get;set;}
+}

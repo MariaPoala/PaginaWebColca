@@ -1,0 +1,109 @@
+﻿@inherits LayoutComponentBase
+
+<PageTitle>a) Ejemplo 1</PageTitle>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+
+<div
+  class="  bg-gradient-to-r from-cyan-500 to-blue-500  text-white md:flex md:justify-between md:items-center justify-center ">
+
+  <div class="flex items-center justify-between p-4 mr-12">
+    <img src="https://almacenamientoarchivo.blob.core.windows.net/archivoscolca/logo.png" style="height:10vh;" />
+    <h1>Municipalidad Distrital De Colca</h1>
+
+    <button @onclick="ToggleMenu" class="md:hidden">
+      <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+        <path fill-rule="evenodd"
+          d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z" />
+      </svg>
+    </button>
+  </div>
+
+  @{
+    var menuVisibleClass = _menuVisible ? "" : "hidden";
+  }
+  <ul class="@($"flex flex-col {menuVisibleClass} bg-gray-700 px-4 py-2 md:flex md:space-x-10 md:flex-row md:bg-transparent")">
+
+    <a href="/"
+      class="border-transparent text-white font-semibold hover:text-neutral-500 hover:border-gray-300 whitespace-nowrap pb-4 px-1 border-b-2 font-font-mono text-xl"
+      aria-current="page"> INICIO </a>
+    <a href="/municipalidad"
+      class="border-transparent text-white  font-semibold hover:text-neutral-500 hover:border-gray-300 whitespace-nowrap pb-4 px-1 border-b-2 font-font-mono  text-xl">
+      MUNICIPALIDAD </a>
+
+    <a href="/servicios"
+      class="border-transparent text-white  font-semibold hover:text-neutral-500 hover:border-gray-300 whitespace-nowrap pb-4 px-1 border-b-2 font-font-mono  text-xl">
+      SERVICIOS </a>
+
+    <a href="/obras"
+      class="border-transparent text-white  font-semibold hover:text-neutral-500 hover:border-gray-300 whitespace-nowrap pb-4 px-1 border-b-2 font-font-mono  text-xl">
+      OBRAS </a>
+
+    <a href="/turismo"
+      class="border-transparent text-white  font-semibold hover:text-neutral-500 hover:border-gray-300 whitespace-nowrap pb-4 px-1 border-b-2 font-font-mono d text-xl">
+      TURISMO </a>
+
+    <a href="/contactos"
+      class="border-transparent text-white  font-semibold hover:text-neutral-500 hover:border-gray-300 whitespace-nowrap pb-4 px-1 border-b-2 font-font-mono  text-xl">
+      ATENCIÓN CIUDADANA </a>
+
+      <a href="https://colca.moodlecloud.com"
+      class="border-transparent text-violet-200  font-semibold hover:text-violet-300 hover:border-gray-300 whitespace-nowrap pb-4 px-1 border-b-2 font-font-mono  text-xl">
+      Aula Virtual MDC </a>
+  </ul>
+</div>
+
+@code
+{
+  private bool _menuVisible = false;
+
+  private void ToggleMenu()
+  {
+    _menuVisible = !_menuVisible;
+  }
+}
+
+<div class="page">
+  <main>
+    <div style="background: #AFC7DE;">
+      <style>
+        .carousel-open:checked+.carousel-item {
+          position: static;
+          opacity: 100;
+        }
+
+        .carousel-item {
+          -webkit-transition: opacity 0.6s ease-out;
+          transition: opacity 0.6s ease-out;
+        }
+
+        #carousel-1:checked~.control-1,
+        #carousel-2:checked~.control-2,
+        #carousel-3:checked~.control-3 {
+          display: block;
+        }
+
+        .carousel-indicators {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          position: absolute;
+          bottom: 2%;
+          left: 0;
+          right: 0;
+          text-align: center;
+          z-index: 10;
+        }
+
+        #carousel-1:checked~.control-1~.carousel-indicators li:nth-child(1) .carousel-bullet,
+        #carousel-2:checked~.control-2~.carousel-indicators li:nth-child(2) .carousel-bullet,
+        #carousel-3:checked~.control-3~.carousel-indicators li:nth-child(3) .carousel-bullet {
+          color: #2b6cb0;
+        }
+      </style>
+    </div>
+    <article class="content px-4">
+      @Body
+    </article>
+  </main>
+</div>
+<Footer></Footer>

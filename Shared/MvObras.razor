@@ -1,0 +1,26 @@
+<div class="group relative bg-white border border-gray-200 rounded-lg flex flex-col overflow-hidden">
+    <div class="aspect-w-3 aspect-h-4 bg-gray-200 group-hover:opacity-75 sm:aspect-none sm:h-96">
+        <img src="@Url_IMG"
+            alt="Eight shirts arranged on table in black, olive, grey, blue, white, red, mustard, and green."
+            class="w-full h-full object-center object-cover sm:w-full sm:h-full">
+    </div>
+    <div class="flex-1 p-4 space-y-2 flex flex-col">
+        <h3 class="text-sm font-medium text-gray-900">
+            <a href="#">
+                <span aria-hidden="true" class="absolute inset-0"></span>
+               @Titulo
+            </a>
+        </h3>
+        <p class="text-sm text-gray-500">@Descripcion</p>
+       
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string Url_IMG {get;set;}
+    [Parameter]
+    public string Titulo {get;set;}
+    [Parameter]
+    public string Descripcion {get;set;}
+}

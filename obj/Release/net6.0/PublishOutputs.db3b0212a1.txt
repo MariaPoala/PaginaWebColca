@@ -1,0 +1,11 @@
+D:\0) Blazor\a) Ejemplo 1\bin\Release\net6.0\publish\a) Ejemplo 1.exe
+D:\0) Blazor\a) Ejemplo 1\bin\Release\net6.0\publish\appsettings.Development.json
+D:\0) Blazor\a) Ejemplo 1\bin\Release\net6.0\publish\appsettings.json
+D:\0) Blazor\a) Ejemplo 1\bin\Release\net6.0\publish\package-lock.json
+D:\0) Blazor\a) Ejemplo 1\bin\Release\net6.0\publish\package.json
+D:\0) Blazor\a) Ejemplo 1\bin\Release\net6.0\publish\a) Ejemplo 1.dll
+D:\0) Blazor\a) Ejemplo 1\bin\Release\net6.0\publish\a) Ejemplo 1.deps.json
+D:\0) Blazor\a) Ejemplo 1\bin\Release\net6.0\publish\a) Ejemplo 1.runtimeconfig.json
+D:\0) Blazor\a) Ejemplo 1\bin\Release\net6.0\publish\a) Ejemplo 1.pdb
+D:\0) Blazor\a) Ejemplo 1\bin\Release\net6.0\publish\Microsoft.AspNetCore.SpaServices.Extensions.dll
+D:\0) Blazor\a) Ejemplo 1\bin\Release\net6.0\publish\Tailwind.Extensions.AspNetCore.dll

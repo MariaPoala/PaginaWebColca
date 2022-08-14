@@ -1,0 +1,142 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<main>
+  <!-- Hero card -->
+  <div class="relative">
+    <div class="absolute inset-x-0 bottom-0 h-80 bg-gray-100"></div>
+    <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+      <div class="carousel relative shadow-2xl bg-white">
+        <div class="carousel-inner relative overflow-hidden w-full">
+          <!--Slide 1-->
+          <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
+            checked="checked">
+          <div class="carousel-item absolute opacity-0" style="height:80vh;">
+            <img src="https://almacenamientoarchivo.blob.core.windows.net/archivoscolca/JuntaVecinal.jpg" />
+
+          </div>
+          <label for="carousel-3"
+            class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+          <label for="carousel-2"
+            class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+
+          <!--Slide 2-->
+          <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+          <div class="carousel-item absolute opacity-0" style="height:80vh;">
+            <img src="https://almacenamientoarchivo.blob.core.windows.net/archivoscolca/portada1.jpg" />
+          </div>
+          <label for="carousel-1"
+            class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+          <label for="carousel-3"
+            class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+
+          <!--Slide 3-->
+          <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+          <div class="carousel-item absolute opacity-0" style="height:80vh;">
+            <img src="https://almacenamientoarchivo.blob.core.windows.net/archivoscolca/navidad.jpg" />
+          </div>
+          <label for="carousel-2"
+            class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+          <label for="carousel-1"
+            class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+
+          <!-- Add additional indicators for each slide-->
+          <ol class="carousel-indicators">
+            <li class="inline-block mr-3">
+              <label for="carousel-1"
+                class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+            </li>
+            <li class="inline-block mr-3">
+              <label for="carousel-2"
+                class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+            </li>
+            <li class="inline-block mr-3">
+              <label for="carousel-3"
+                class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+            </li>
+          </ol>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- More main page content here... -->
+</main>
+
+<body>
+  <!-- This example requires Tailwind CSS v2.0+ -->
+  <div class="bg-white">
+    <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+      <div class="md:flex md:items-center ">
+        <svg class="h-8 w-8 text-red-500" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" />
+          <rect x="4" y="4" width="16" height="4" rx="1" />
+          <rect x="4" y="12" width="6" height="8" rx="1" />
+          <line x1="14" y1="12" x2="20" y2="12" />
+          <line x1="14" y1="16" x2="20" y2="16" />
+          <line x1="14" y1="20" x2="20" y2="20" />
+        </svg>
+        <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">Noticias Colca</h2>
+
+      </div>
+      <div class="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-4 md:gap-y-0 lg:gap-x-8">
+        <MvNoticia Titulo="Usuarios de Pensión 65 cobran sus intensivos" Fecha="24-03-22" Descripcion="Esta mañana los usuarios de pensión 65 realizaron el cobro de sus intensivos en el Banco Nacional"
+          Url_IMG="https://almacenamientoarchivo.blob.core.windows.net/archivoscolca/banco.jpg">
+        </MvNoticia>
+        <MvNoticia Titulo="Colca amanece de blanco" Fecha="24-03-22" Descripcion="La granizada arremete con el distrito de Colca, pobladores piden apoyo por todas hectáreas afectas por el desastre natural."
+          Url_IMG="https://almacenamientoarchivo.blob.core.windows.net/archivoscolca/granizada.jpeg">
+        </MvNoticia>
+        <MvNoticia Titulo="Se vienen nuevas obras" Fecha="24-03-22" Descripcion="La comunidad de Colca, recibió 50 bolsas de cemento para la construcción de un reservorio."
+          Url_IMG="https://almacenamientoarchivo.blob.core.windows.net/archivoscolca/cemento.jpg">
+        </MvNoticia>
+        <MvNoticia Titulo="Donacion de computadoras" Fecha="24-03-22" Descripcion="La institución educativa Mariscal Cáceres recibe 5 computadoras donadas por el alcalde del distrito de Colca."
+          Url_IMG="https://almacenamientoarchivo.blob.core.windows.net/archivoscolca/computadoras.jpeg">
+        </MvNoticia>
+      </div>
+
+    </div>
+  </div>
+
+  @* actividades *@
+  <div class="bg-white">
+    <div class="max-w-2xl mx-auto py-16 px-4 sm:py-0 sm:px-6 lg:max-w-7xl lg:px-8">
+      <div class="md:flex md:items-center ">
+        <svg class="h-8 w-8 text-red-500" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" />
+          <rect x="4" y="5" width="16" height="16" rx="2" />
+          <line x1="16" y1="3" x2="16" y2="7" />
+          <line x1="8" y1="3" x2="8" y2="7" />
+          <line x1="4" y1="11" x2="20" y2="11" />
+          <rect x="8" y="15" width="2" height="2" />
+        </svg>
+        <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">Actividades proximas</h2>
+      </div>
+
+      <div class="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-4 md:gap-y-0 lg:gap-x-8 rounded-sm">
+        <MvActividades
+          Url_IMG="https://almacenamientoarchivo.blob.core.windows.net/archivoscolca/sanLucas.jpg"
+          Fecha="20-04-2022" Descripcion="Concurso de San Lucas. Muestra los mejores adornos.">
+        </MvActividades>
+        <MvActividades
+          Url_IMG="https://almacenamientoarchivo.blob.core.windows.net/archivoscolca/reforestacion.jpg"
+          Fecha="29-03-2022" Descripcion="Se reforestara la zona de Parco, se invita a contribuir con la plantación de plantas nativas.">
+        </MvActividades>
+        <MvActividades
+          Url_IMG="https://almacenamientoarchivo.blob.core.windows.net/archivoscolca/tabajaPeru.jpg"
+          Fecha="28-03-2022" Descripcion="Este lunes se iniciará con el programa de trabaja Perú, se parte de este gran equipo.">
+        </MvActividades>
+         <MvActividades
+          Url_IMG="https://almacenamientoarchivo.blob.core.windows.net/archivoscolca/calle.jpg"
+          Fecha="01-04-2022" Descripcion="Se empezara con el mantenimiento de calles, se requiere personal para trabajar."> 
+          </MvActividades>
+      </div>
+      <br>
+    </div>
+  </div>
+</body>

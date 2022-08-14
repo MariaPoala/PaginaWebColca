@@ -1,0 +1,120 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = a__Ejemplo_1
+build_property.RootNamespace = a__Ejemplo_1
+build_property.ProjectDir = d:\0) Blazor\a) Ejemplo 1\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = d:\0) Blazor\a) Ejemplo 1
+build_property._RazorSourceGeneratorDebug = 
+
+[d:/0) Blazor/a) Ejemplo 1/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Carousel.razor]
+build_metadata.AdditionalFiles.TargetPath = Q2Fyb3VzZWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Pages/Contactos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdG9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Pages/Municipalidad.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXVuaWNpcGFsaWRhZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Pages/Obras.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JyYXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Pages/Servicios.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaW9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Pages/ServiciosActa.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaW9zQWN0YS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Pages/Turismo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHVyaXNtby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Shared/Carrusel.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENhcnJ1c2VsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Shared/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZvb3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Shared/MvActividades.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE12QWN0aXZpZGFkZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Shared/MvContactos.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE12Q29udGFjdG9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Shared/MvNoticia.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE12Tm90aWNpYS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Shared/MvObras.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE12T2JyYXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Shared/MvServicios.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE12U2VydmljaW9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Shared/MvTurismo.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE12VHVyaXNtby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-8fpeaamupg
+
+[d:/0) Blazor/a) Ejemplo 1/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-gq268ydfs1
+
+[d:/0) Blazor/a) Ejemplo 1/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/0) Blazor/a) Ejemplo 1/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
