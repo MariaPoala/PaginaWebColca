@@ -111,39 +111,6 @@
         }
       },
       {
-        "HashCode": 1827052888,
-        "Kind": "Components.Component",
-        "Name": "a__Ejemplo_1.Pages.Index",
-        "AssemblyName": "a) Ejemplo 1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "a__Ejemplo_1.Pages.Index"
-        }
-      },
-      {
-        "HashCode": -1112130495,
-        "Kind": "Components.Component",
-        "Name": "a__Ejemplo_1.Pages.Index",
-        "AssemblyName": "a) Ejemplo 1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "a__Ejemplo_1.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "a__Ejemplo_1.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1126313839,
         "Kind": "Components.Component",
         "Name": "a__Ejemplo_1.Pages.Municipalidad",
@@ -173,39 +140,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "a__Ejemplo_1.Pages.Municipalidad",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 577455568,
-        "Kind": "Components.Component",
-        "Name": "a__Ejemplo_1.Pages.Obras",
-        "AssemblyName": "a) Ejemplo 1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Obras"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "a__Ejemplo_1.Pages.Obras"
-        }
-      },
-      {
-        "HashCode": -1904285332,
-        "Kind": "Components.Component",
-        "Name": "a__Ejemplo_1.Pages.Obras",
-        "AssemblyName": "a) Ejemplo 1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "a__Ejemplo_1.Pages.Obras"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "a__Ejemplo_1.Pages.Obras",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -309,35 +243,101 @@
         }
       },
       {
-        "HashCode": 1898905458,
+        "HashCode": -1707516172,
         "Kind": "Components.Component",
-        "Name": "a__Ejemplo_1.App",
+        "Name": "a__Ejemplo_1.Pages.Index_copy",
         "AssemblyName": "a) Ejemplo 1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Index_copy"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "a__Ejemplo_1.App"
+          "Common.TypeName": "a__Ejemplo_1.Pages.Index_copy"
         }
       },
       {
-        "HashCode": -110443510,
+        "HashCode": -187852126,
         "Kind": "Components.Component",
-        "Name": "a__Ejemplo_1.App",
+        "Name": "a__Ejemplo_1.Pages.Index_copy",
         "AssemblyName": "a) Ejemplo 1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "a__Ejemplo_1.App"
+            "TagName": "a__Ejemplo_1.Pages.Index_copy"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "a__Ejemplo_1.App",
+          "Common.TypeName": "a__Ejemplo_1.Pages.Index_copy",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1827052888,
+        "Kind": "Components.Component",
+        "Name": "a__Ejemplo_1.Pages.Index",
+        "AssemblyName": "a) Ejemplo 1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "a__Ejemplo_1.Pages.Index"
+        }
+      },
+      {
+        "HashCode": -1112130495,
+        "Kind": "Components.Component",
+        "Name": "a__Ejemplo_1.Pages.Index",
+        "AssemblyName": "a) Ejemplo 1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "a__Ejemplo_1.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "a__Ejemplo_1.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 577455568,
+        "Kind": "Components.Component",
+        "Name": "a__Ejemplo_1.Pages.Obras",
+        "AssemblyName": "a) Ejemplo 1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Obras"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "a__Ejemplo_1.Pages.Obras"
+        }
+      },
+      {
+        "HashCode": -1904285332,
+        "Kind": "Components.Component",
+        "Name": "a__Ejemplo_1.Pages.Obras",
+        "AssemblyName": "a) Ejemplo 1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "a__Ejemplo_1.Pages.Obras"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "a__Ejemplo_1.Pages.Obras",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -424,39 +424,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "a__Ejemplo_1.Shared.Carrusel",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 885256864,
-        "Kind": "Components.Component",
-        "Name": "a__Ejemplo_1.Shared.Footer",
-        "AssemblyName": "a) Ejemplo 1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Footer"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "a__Ejemplo_1.Shared.Footer"
-        }
-      },
-      {
-        "HashCode": -551384948,
-        "Kind": "Components.Component",
-        "Name": "a__Ejemplo_1.Shared.Footer",
-        "AssemblyName": "a) Ejemplo 1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "a__Ejemplo_1.Shared.Footer"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "a__Ejemplo_1.Shared.Footer",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -934,6 +901,125 @@
         }
       },
       {
+        "HashCode": 1289783622,
+        "Kind": "Components.Component",
+        "Name": "a__Ejemplo_1.Shared.SurveyPrompt",
+        "AssemblyName": "a) Ejemplo 1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "a__Ejemplo_1.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": -1153069551,
+        "Kind": "Components.Component",
+        "Name": "a__Ejemplo_1.Shared.SurveyPrompt",
+        "AssemblyName": "a) Ejemplo 1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "a__Ejemplo_1.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "a__Ejemplo_1.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1135641127,
+        "Kind": "Components.Component",
+        "Name": "a__Ejemplo_1.Shared.NavMenu",
+        "AssemblyName": "a) Ejemplo 1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "a__Ejemplo_1.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -1027446226,
+        "Kind": "Components.Component",
+        "Name": "a__Ejemplo_1.Shared.NavMenu",
+        "AssemblyName": "a) Ejemplo 1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "a__Ejemplo_1.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "a__Ejemplo_1.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 885256864,
+        "Kind": "Components.Component",
+        "Name": "a__Ejemplo_1.Shared.Footer",
+        "AssemblyName": "a) Ejemplo 1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Footer"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "a__Ejemplo_1.Shared.Footer"
+        }
+      },
+      {
+        "HashCode": -551384948,
+        "Kind": "Components.Component",
+        "Name": "a__Ejemplo_1.Shared.Footer",
+        "AssemblyName": "a) Ejemplo 1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "a__Ejemplo_1.Shared.Footer"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "a__Ejemplo_1.Shared.Footer",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -2040387675,
         "Kind": "Components.Component",
         "Name": "a__Ejemplo_1.Shared.MvTurismo",
@@ -1015,59 +1101,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "a__Ejemplo_1.Shared.MvTurismo",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1289783622,
-        "Kind": "Components.Component",
-        "Name": "a__Ejemplo_1.Shared.SurveyPrompt",
-        "AssemblyName": "a) Ejemplo 1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "a__Ejemplo_1.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": -1153069551,
-        "Kind": "Components.Component",
-        "Name": "a__Ejemplo_1.Shared.SurveyPrompt",
-        "AssemblyName": "a) Ejemplo 1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "a__Ejemplo_1.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "a__Ejemplo_1.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -1168,35 +1201,35 @@
         }
       },
       {
-        "HashCode": 1135641127,
+        "HashCode": 1898905458,
         "Kind": "Components.Component",
-        "Name": "a__Ejemplo_1.Shared.NavMenu",
+        "Name": "a__Ejemplo_1.App",
         "AssemblyName": "a) Ejemplo 1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "a__Ejemplo_1.Shared.NavMenu"
+          "Common.TypeName": "a__Ejemplo_1.App"
         }
       },
       {
-        "HashCode": -1027446226,
+        "HashCode": -110443510,
         "Kind": "Components.Component",
-        "Name": "a__Ejemplo_1.Shared.NavMenu",
+        "Name": "a__Ejemplo_1.App",
         "AssemblyName": "a) Ejemplo 1",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "a__Ejemplo_1.Shared.NavMenu"
+            "TagName": "a__Ejemplo_1.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "a__Ejemplo_1.Shared.NavMenu",
+          "Common.TypeName": "a__Ejemplo_1.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -17534,6 +17567,11 @@
     {
       "FilePath": "d:\\0) Blazor\\a) Ejemplo 1\\Shared\\MvActividades.razor",
       "TargetPath": "Shared\\MvActividades.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\0) Blazor\\a) Ejemplo 1\\Pages\\Index copy.razor",
+      "TargetPath": "Pages\\Index copy.razor",
       "FileKind": "component"
     },
     {

@@ -4,9 +4,9 @@
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
 
 <div
-  class="  bg-gradient-to-r from-cyan-500 to-blue-500  text-white md:flex md:justify-between md:items-center justify-center ">
+  class="  bg-gradient-to-r from-indigo-500 to-cyan-400  text-white md:flex md:justify-between md:items-center justify-center ">
 
-  <div class="flex items-center justify-between p-4 mr-12">
+  <div class="flex items-center justify-between p-4 ">
     <img src="https://almacenamientoarchivo.blob.core.windows.net/archivoscolca/logo.png" style="height:10vh;" />
     <h1>Municipalidad Distrital De Colca</h1>
 
@@ -21,7 +21,7 @@
   @{
     var menuVisibleClass = _menuVisible ? "" : "hidden";
   }
-  <ul class="@($"flex flex-col {menuVisibleClass} bg-gray-700 px-4 py-2 md:flex md:space-x-10 md:flex-row md:bg-transparent")">
+  <ul class="@($"flex mr-10 flex-col {menuVisibleClass} bg-gray-700 px-4 py-2 md:flex  md:space-x-10 md:flex-row md:bg-transparent")">
 
     <a href="/"
       class="border-transparent text-white font-semibold hover:text-neutral-500 hover:border-gray-300 whitespace-nowrap pb-4 px-1 border-b-2 font-font-mono text-xl"
@@ -30,9 +30,9 @@
       class="border-transparent text-white  font-semibold hover:text-neutral-500 hover:border-gray-300 whitespace-nowrap pb-4 px-1 border-b-2 font-font-mono  text-xl">
       MUNICIPALIDAD </a>
 
-    <a href="/servicios"
+    @* <a href="/servicios"
       class="border-transparent text-white  font-semibold hover:text-neutral-500 hover:border-gray-300 whitespace-nowrap pb-4 px-1 border-b-2 font-font-mono  text-xl">
-      SERVICIOS </a>
+      SERVICIOS </a> *@
 
     <a href="/obras"
       class="border-transparent text-white  font-semibold hover:text-neutral-500 hover:border-gray-300 whitespace-nowrap pb-4 px-1 border-b-2 font-font-mono  text-xl">
@@ -46,9 +46,9 @@
       class="border-transparent text-white  font-semibold hover:text-neutral-500 hover:border-gray-300 whitespace-nowrap pb-4 px-1 border-b-2 font-font-mono  text-xl">
       ATENCIÓN CIUDADANA </a>
 
-      <a href="https://colca.moodlecloud.com"
+      @* <a href="https://colca.moodlecloud.com"
       class="border-transparent text-violet-200  font-semibold hover:text-violet-300 hover:border-gray-300 whitespace-nowrap pb-4 px-1 border-b-2 font-font-mono  text-xl">
-      Aula Virtual MDC </a>
+      Aula Virtual MDC </a> *@
   </ul>
 </div>
 
